@@ -22,7 +22,7 @@ public class StaticVariable {
         Mobile obj1 = new Mobile();
         obj1.brand = "samsung";
         obj1.price = 50000;
-        obj1.name = "Smartphone";
+        // obj1.name = "Smartphone";
 
         Mobile obj2 = new Mobile();
         obj2.brand = "Nokia 3310";
@@ -33,7 +33,7 @@ public class StaticVariable {
 
         System.out.println();
         
-        obj2.name = "dabba phone"; // name for all mobile objects changes as it is `static`
+        // obj2.name = "dabba phone"; // name for all mobile objects changes as it is `static`
  
         obj1.show();
         obj2.show();

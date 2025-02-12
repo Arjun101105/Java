@@ -1,5 +1,5 @@
 
-class Calculator{
+class MainCalculator{
     public int add(int n1, int n2){
         return n1 + n2;
     }
@@ -10,7 +10,7 @@ class Calculator{
 
 public class methodOverloading {
     public static void main(String[] args) {
-        Calculator cal = new Calculator();
+        MainCalculator cal = new MainCalculator();
         System.out.println(cal.add(5, 5));
         System.out.println(cal.add(1,3,6));
     }
